@@ -1,5 +1,5 @@
 /* The page is NOT responsive. You can implement responsiveness yourself if you wanna have some fun 😃 */
-/* 
+
 :root {
   --color-primary: #5ec576;
   --color-secondary: #ffcb03;
@@ -13,11 +13,22 @@
   --gradient-primary: linear-gradient(to top left, #39b385, #9be15d);
   --gradient-secondary: linear-gradient(to top left, #ffb003, #ffcb03);
 }
-color: var(--color-primary);
-*  */
+
+
 *{
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
 }
 
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #444;
+  line-height: 1.9;
+  background-color: #f3f3f3;
+}
