@@ -31,4 +31,36 @@ body {
   color: #444;
   line-height: 1.9;
   background-color: #f3f3f3;
+  font-size: 1.8rem;
+}
+.max-width{
+ width:1300px;
+ padding:0 80px;
+ margin:auto;
+}
+nav .max-width{
+  display: flex;
+  justify-content: space-between;
+  padding:30px 80px;
+}
+.nav-links{
+  display: flex;
+  align-items: center;
+  list-style: none;
+
+ 
+}
+
+.max-width>img{
+  height: 6rem;
+  width: 21rem;
+}
+.nav-item{
+
+}
+.nav-link{
+  text-decoration: none;
+  display: block;
+  margin-left: 3rem;
+
 }
