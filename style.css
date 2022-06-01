@@ -233,21 +233,30 @@ header{
   fill:var(--color-tertiary)
 }
 .operation-content{
-  display: grid;
-    grid-template-columns: 8rem 1fr;
-    row-gap: 0.2rem;
-    column-gap: 5rem;
-    justify-content: center;
-    background: white;
-    padding: 8rem 8rem;
-    margin-bottom: 2rem;
-    font-size: 2rem;
-    line-height: 2.7rem;
-    text-align: justify;
+  display: none;
+  background: white;
+  padding: 8rem 8rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  line-height: 2.7rem;
+  text-align: justify;
 }
 .operation-content p{
   grid-column: 2;
 }
-.operation-content--1{
-  
+.operation-content--active{
+  display: grid;
+  grid-template-columns: 8rem 1fr;
+  row-gap: 0.2rem;
+  column-gap: 5rem;
+  justify-content: center;
+}
+.operations-tab--1:hover{
+  background-color: var(--color-primary-darker);
+}
+.operations-tab--2:hover{
+  background-color: var(--color-secondary-darker);
+}
+.operations-tab--3:hover{
+  background-color: var(--color-tertiary-darker);
 }
